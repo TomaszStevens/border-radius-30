@@ -1,0 +1,26 @@
+{
+  "name": "border-radius-30",
+  "version": "1.0.3",
+  "description": "Get your fresh View with a border radius of 30 in react-native!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszStevens/border-radius-30.git"
+  },
+  "keywords": [
+    "border-radius"
+  ],
+  "author": "Tomasz Stevens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszStevens/border-radius-30/issues"
+  },
+  "homepage": "https://github.com/TomaszStevens/border-radius-30#readme"
+}

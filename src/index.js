@@ -1,10 +1,9 @@
 #!/usr/bin/env node
+import React from "react";
 import { View } from "react-native";
 
-const Component = () => {
-  return(
-    <View style={{ borderRadius: 30, width: 50, height: 50, backgroundColor: "red" }}/>
-    );
+const IncredibleComponent = ({ style, children }) => {
+  return <View style={{ borderRadius: 30, ...style }}>{children}</View>;
 };
 
-module.exports.component = Component;
+module.exports = IncredibleComponent;
